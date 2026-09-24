@@ -91,7 +91,7 @@ export const IntroGunungan: React.FC<IntroGununganProps> = ({ onComplete }) => {
           >
             <div className="w-[200%] h-full">
               <img
-                src="/wayang/gunungan.svg"
+                src="/wayang/gunungan-gold.png"
                 alt="Gunungan Wayang Kiri"
                 className="w-full h-full object-contain text-gold-400 drop-shadow-[0_0_20px_rgba(201,169,110,0.4)]"
               />
@@ -111,7 +111,7 @@ export const IntroGunungan: React.FC<IntroGununganProps> = ({ onComplete }) => {
           >
             <div className="w-[200%] h-full -translate-x-1/2">
               <img
-                src="/wayang/gunungan.svg"
+                src="/wayang/gunungan-gold.png"
                 alt="Gunungan Wayang Kanan"
                 className="w-full h-full object-contain text-gold-400 drop-shadow-[0_0_20px_rgba(201,169,110,0.4)]"
               />

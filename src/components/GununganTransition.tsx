@@ -37,7 +37,7 @@ export const GununganTransition: React.FC<GununganTransitionProps> = ({
           {/* Majestic Center Gunungan in Gold */}
           <div className="relative z-10 w-80 md:w-[480px] h-[550px] md:h-[750px]">
             <img
-              src="/wayang/gunungan.svg"
+              src="/wayang/gunungan-gold.png"
               alt="Transisi Gunungan"
               className="w-full h-full object-contain text-gold-400 drop-shadow-[0_0_35px_rgba(201,169,110,0.6)]"
             />

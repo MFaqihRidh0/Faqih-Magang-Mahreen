@@ -1,5 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 440" fill="none">
-  <!-- Kyai Semar Silhouette Body (Solid Silhouette in currentColor) -->
+  <!-- Kyai Semar Prada Emas Asli (Full Color Traditional Wayang Kulit) -->
+
+  <!-- Drop Shadow Glow Filter -->
+  <defs>
+    <filter id="goldGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#C9A96E" flood-opacity="0.35" />
+    </filter>
+  </defs>
+
+  <!-- Gapit Central Rod (Tangkai Tanduk Kerbau Cokelat Keemasan) -->
+  <rect x="132" y="310" width="10" height="125" rx="3" fill="#8C6239" stroke="#4A3018" stroke-width="1.5" />
+  <rect x="134" y="190" width="6" height="130" rx="2" fill="#5C3D1E" opacity="0.6" />
+
+  <!-- Outstretched Hand & Arm (Golden Skin) -->
+  <path d="M192,130 C235,130 278,112 292,105 C286,124 254,148 222,154 Z" fill="#E8C988" stroke="#1F1B19" stroke-width="2.2" />
+  <path d="M110,145 C85,165 78,195 95,200 C110,190 115,168 110,145 Z" fill="#E8C988" stroke="#1F1B19" stroke-width="2.2" />
+
+  <!-- Semar Golden Body Base -->
   <path d="M140,75 
            C140,55 152,42 165,40 
            C168,26 176,18 190,18 
@@ -11,47 +28,82 @@
            C65,325 50,270 50,205 
            C50,140 90,95 128,82 
            C122,76 128,64 140,75 Z" 
-        fill="currentColor" />
+        fill="#E8C988" 
+        stroke="#1F1B19" 
+        stroke-width="2.5" />
 
-  <!-- Outstretched Guiding Arm & Hand (Tangan Nuding Bijaksana) -->
-  <path d="M192,130 C235,130 278,112 292,105 C286,124 254,148 222,154 Z" fill="currentColor" />
-  <path d="M110,145 C85,165 78,195 95,200 C110,190 115,168 110,145 Z" fill="currentColor" />
+  <!-- Kuncung Hair (Black with Gold Band) -->
+  <path d="M166,42 C172,25 178,18 190,18 C185,32 186,44 177,53 Z" fill="#1F1B19" stroke="#1F1B19" stroke-width="1.5" />
+  <rect x="170" y="42" width="12" height="4" rx="1.5" fill="#E5C477" stroke="#1F1B19" stroke-width="1" />
 
-  <!-- Gapit Central Rod (Tangkai Wayang) -->
-  <rect x="132" y="320" width="10" height="115" rx="3" fill="#7E6337" opacity="0.85" />
+  <!-- Sumping (Ear Ornament in Gold & Ruby Red) -->
+  <circle cx="145" cy="85" r="7" fill="#C9A96E" stroke="#1F1B19" stroke-width="1.8" />
+  <circle cx="145" cy="85" r="3.5" fill="#B83232" />
 
-  <!-- Ornate Tatahan Carving Details (Intricate lines & Poleng pattern) -->
-  <g stroke="#171412" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none">
+  <!-- Golden Necklace / Kalung Bulan Buncar -->
+  <path d="M130,125 Q165,145 200,125" stroke="#C9A96E" stroke-width="5" fill="none" />
+  <path d="M130,125 Q165,145 200,125" stroke="#1F1B19" stroke-width="1.5" fill="none" />
+  <circle cx="165" cy="138" r="4" fill="#B83232" stroke="#1F1B19" stroke-width="1" />
+
+  <!-- Sacred Checked Sarong Poleng (Kain Kampuh Hitam-Putih Semar) -->
+  <g>
+    <!-- Sarong background -->
+    <path d="M60,215 C60,275 80,325 115,332 L155,335 C190,325 240,275 240,215 C210,210 180,205 150,205 C120,205 90,210 60,215 Z" fill="#F5EEDF" stroke="#1F1B19" stroke-width="2" />
     
-    <!-- Semar's Face Details -->
-    <!-- Wise smiling eye & curved brow -->
-    <path d="M165,68 Q175,62 185,68" stroke-width="2.5" />
-    <circle cx="175" cy="73" r="2.5" fill="#171412" />
-    
-    <!-- Signature smiling mouth & white tusk/fang hint -->
-    <path d="M160,92 Q176,102 190,88" stroke-width="2.5" />
-    
-    <!-- Kuncung Hair Filigree -->
-    <path d="M178,52 Q188,32 190,18" stroke-width="2" />
-    <path d="M172,56 Q180,40 184,28" stroke-width="1.5" />
+    <!-- Checked Poleng Grid Tiles (Alternating Black Tiles) -->
+    <rect x="75" y="215" width="22" height="22" fill="#2A2623" />
+    <rect x="120" y="215" width="24" height="22" fill="#2A2623" />
+    <rect x="168" y="215" width="24" height="22" fill="#2A2623" />
+    <rect x="214" y="218" width="20" height="22" fill="#2A2623" />
 
-    <!-- Sumping (Ornate Ear Stud) -->
-    <circle cx="145" cy="85" r="5" stroke-width="2" />
-    <circle cx="145" cy="85" r="2" fill="#171412" />
+    <rect x="96" y="237" width="24" height="22" fill="#2A2623" />
+    <rect x="144" y="237" width="24" height="22" fill="#2A2623" />
+    <rect x="192" y="237" width="24" height="22" fill="#2A2623" />
 
-    <!-- Kalung / Necklace & Chest Sash -->
-    <path d="M130,125 Q165,145 200,125" stroke-width="2" stroke-dasharray="3 3" />
-    <path d="M125,145 Q165,170 205,145" stroke-width="2" />
+    <rect x="75" y="259" width="22" height="22" fill="#2A2623" />
+    <rect x="120" y="259" width="24" height="22" fill="#2A2623" />
+    <rect x="168" y="259" width="24" height="22" fill="#2A2623" />
+    <rect x="214" y="259" width="20" height="22" fill="#2A2623" />
 
-    <!-- Kain Kampuh Poleng (Checked Sacred Sarong of Semar) -->
-    <path d="M90,225 L215,225 M78,255 L228,255 M70,285 L215,285 M85,315 L195,315" stroke-width="2" stroke-dasharray="4 4" />
-    <path d="M105,205 L95,325 M135,200 L128,332 M165,200 L160,332 M195,205 L190,320" stroke-width="2" stroke-dasharray="4 4" />
+    <rect x="96" y="281" width="24" height="22" fill="#2A2623" />
+    <rect x="144" y="281" width="24" height="22" fill="#2A2623" />
+    <rect x="192" y="281" width="24" height="22" fill="#2A2623" />
 
-    <!-- Belly line & Navel -->
-    <path d="M135,185 Q165,200 195,185" stroke-width="1.8" />
-    <circle cx="165" cy="192" r="2" fill="#171412" />
+    <rect x="85" y="303" width="24" height="22" fill="#2A2623" />
+    <rect x="132" y="303" width="26" height="22" fill="#2A2623" />
+    <rect x="180" y="303" width="24" height="22" fill="#2A2623" />
 
-    <!-- Foot ornaments (Binggel Gelang Kaki) -->
-    <line x1="115" y1="360" x2="155" y2="360" stroke-width="2.5" />
+    <!-- Red Silk Sash (Sampur Abang) Hanging from Waist -->
+    <path d="M142,205 Q145,260 148,335 L158,335 Q155,260 152,205 Z" fill="#B83232" stroke="#1F1B19" stroke-width="1.5" />
+    <line x1="144" y1="320" x2="156" y2="320" stroke="#E3CFA6" stroke-width="2" />
   </g>
+
+  <!-- Golden Waistband (Sabuk Emas Prada) -->
+  <path d="M72,210 Q150,225 228,210" stroke="#C9A96E" stroke-width="7" fill="none" />
+  <path d="M72,210 Q150,225 228,210" stroke="#1F1B19" stroke-width="1.8" fill="none" />
+  <rect x="142" y="210" width="16" height="12" rx="2" fill="#E3CFA6" stroke="#1F1B19" stroke-width="1.5" />
+  <circle cx="150" cy="216" r="2.5" fill="#B83232" />
+
+  <!-- Semar Facial Features (Wise, Friendly & Luminous) -->
+  <g>
+    <!-- Eyes: White with black almond pupil -->
+    <ellipse cx="175" cy="72" rx="7" ry="4" fill="#FFFFFF" stroke="#1F1B19" stroke-width="1.5" />
+    <circle cx="176" cy="72" r="2.5" fill="#1F1B19" />
+    <path d="M165,65 Q176,58 186,65" stroke="#1F1B19" stroke-width="2.5" stroke-linecap="round" fill="none" />
+
+    <!-- Signature Broad Smiling Lips & White Tusk/Fang -->
+    <path d="M158,92 Q176,104 192,86" stroke="#1F1B19" stroke-width="2.8" stroke-linecap="round" fill="none" />
+    <path d="M162,91 Q176,98 188,87" fill="#B83232" />
+    <polygon points="178,89 184,86 182,93" fill="#FFFFFF" stroke="#1F1B19" stroke-width="0.8" />
+
+    <!-- Cheek dimple & Nose line -->
+    <path d="M154,82 Q158,88 156,95" stroke="#1F1B19" stroke-width="1.8" stroke-linecap="round" fill="none" />
+    <path d="M174,75 Q184,78 186,84" stroke="#1F1B19" stroke-width="1.8" stroke-linecap="round" fill="none" />
+
+    <!-- Navel on Round Golden Belly -->
+    <circle cx="160" cy="188" r="3" fill="#B83232" stroke="#1F1B19" stroke-width="1.2" />
+  </g>
+
+  <!-- Golden Ankle Bangles (Binggel Emas) -->
+  <rect x="115" y="355" width="40" height="7" rx="2" fill="#C9A96E" stroke="#1F1B19" stroke-width="1.5" />
 </svg>

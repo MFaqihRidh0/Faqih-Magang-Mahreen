@@ -37,7 +37,7 @@ export const Footer: React.FC = () => {
             <div className="flex items-center gap-3">
               <div className="w-9 h-11 flex-shrink-0">
                 <img
-                  src="/wayang/gunungan.svg"
+                  src="/wayang/gunungan-gold.png"
                   alt="Gunungan Mahreen"
                   className="w-full h-full object-contain text-gold-400"
                 />

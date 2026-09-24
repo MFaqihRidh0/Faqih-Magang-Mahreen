@@ -1,5 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 440" fill="none">
-  <!-- Bagong Silhouette Body (Solid in currentColor) -->
+  <!-- Bagong Prada Emas Asli (Full Color Traditional Wayang Kulit) -->
+
+  <!-- Gapit Central Rod (Tangkai Tanduk Kerbau Cokelat Keemasan) -->
+  <rect x="128" y="330" width="10" height="105" rx="3" fill="#8C6239" stroke="#4A3018" stroke-width="1.5" />
+  <rect x="130" y="210" width="6" height="125" rx="2" fill="#5C3D1E" opacity="0.6" />
+
+  <!-- Expressive Gesturing Hands (Golden Skin) -->
+  <path d="M190,160 C228,172 260,160 272,178 C260,198 228,192 192,185 Z" fill="#E8C988" stroke="#1F1B19" stroke-width="2.2" />
+  <path d="M95,168 C70,186 64,218 80,235 C92,230 96,205 108,186 Z" fill="#E8C988" stroke="#1F1B19" stroke-width="2.2" />
+
+  <!-- Bagong Golden Body Base -->
   <path d="M140,80 
            C140,55 152,42 165,42 
            C172,30 176,24 185,26 
@@ -13,42 +23,52 @@
            C70,342 55,298 55,235 
            C55,175 92,125 125,106 
            C122,94 125,84 140,80 Z" 
-        fill="currentColor" />
+        fill="#E8C988" 
+        stroke="#1F1B19" 
+        stroke-width="2.5" />
 
-  <!-- Expressive Gesturing Hands (Tangan Lucu Bagong) -->
-  <path d="M190,160 C228,172 260,160 272,178 C260,198 228,192 192,185 Z" fill="currentColor" />
-  <path d="M95,168 C70,186 64,218 80,235 C92,230 96,205 108,186 Z" fill="currentColor" />
+  <!-- Hair Knot in Black with Gold Band -->
+  <path d="M175,55 Q182,38 185,26 C176,24 172,30 165,42 Z" fill="#1F1B19" stroke="#1F1B19" stroke-width="1.5" />
+  <rect x="170" y="38" width="10" height="4" rx="1.5" fill="#E5C477" stroke="#1F1B19" stroke-width="1" />
 
-  <!-- Gapit Central Rod (Tangkai Wayang) -->
-  <rect x="128" y="335" width="10" height="100" rx="3" fill="#7E6337" opacity="0.85" />
+  <!-- Sumping (Ear Ornament in Gold & Ruby Red) -->
+  <circle cx="145" cy="100" r="6" fill="#C9A96E" stroke="#1F1B19" stroke-width="1.8" />
+  <circle cx="145" cy="100" r="3" fill="#B83232" />
 
-  <!-- Ornate Tatahan Carving Details -->
-  <g stroke="#171412" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none">
+  <!-- Lower Garment / Kain Batik (Warm Cream & Ruby Red) -->
+  <g>
+    <path d="M70,255 C70,305 95,342 120,348 L145,350 C180,340 215,295 215,255 Z" fill="#F5EEDF" stroke="#1F1B19" stroke-width="2" />
+    <path d="M85,270 L195,270 M92,295 L188,295 M102,320 L178,320" stroke="#B83232" stroke-width="2.5" />
+    <path d="M110,255 L106,345 M150,255 L145,348 M180,255 L175,335" stroke="#1F1B19" stroke-width="2" stroke-dasharray="3 3" />
     
-    <!-- Bagong's Big Bulging Eye (Mripat Thelengan) -->
-    <circle cx="178" cy="82" r="9" stroke-width="2.5" />
-    <circle cx="178" cy="82" r="4.5" fill="#171412" stroke-width="1" />
-    <circle cx="180" cy="80" r="1.5" fill="#F5EEDF" />
-    <path d="M165,70 Q178,64 192,70" stroke-width="2.2" />
-
-    <!-- Wide Open Grinning Mouth (Cangkem Ngablak) -->
-    <path d="M168,112 Q194,134 212,110" stroke-width="2.8" />
-    <path d="M172,116 L206,116" stroke-width="1.8" stroke-dasharray="3 2" />
-
-    <!-- Chubby Cheek & Sumping -->
-    <circle cx="145" cy="100" r="5" stroke-width="2" />
-    <path d="M175,55 Q182,38 185,26" stroke-width="2" />
-
-    <!-- Stately Rounded Belly Bands & Girdle (Sabuk & Otok) -->
-    <path d="M80,255 Q145,280 195,255" stroke-width="2.5" />
-    <path d="M84,275 Q145,300 190,275" stroke-width="2" stroke-dasharray="3 3" />
-    <circle cx="140" cy="240" r="2.5" fill="#171412" />
-
-    <!-- Lower Cloth / Sarong Motif -->
-    <path d="M92,305 Q145,325 178,305" stroke-width="1.8" />
-    <path d="M102,328 Q145,342 165,328" stroke-width="1.8" stroke-dasharray="3 3" />
-
-    <!-- Foot Bangles -->
-    <line x1="120" y1="375" x2="145" y2="375" stroke-width="2" />
+    <!-- Red Silk Sash (Sampur) -->
+    <path d="M136,255 Q138,300 140,348 L147,348 Q144,300 142,255 Z" fill="#B83232" stroke="#1F1B19" stroke-width="1.5" />
   </g>
+
+  <!-- Golden Waistband (Sabuk Emas Prada) -->
+  <path d="M78,255 Q145,280 200,255" stroke="#C9A96E" stroke-width="7" fill="none" />
+  <path d="M78,255 Q145,280 200,255" stroke="#1F1B19" stroke-width="1.8" fill="none" />
+  <rect x="134" y="258" width="14" height="12" rx="2" fill="#E5C477" stroke="#1F1B19" stroke-width="1.5" />
+  <circle cx="141" cy="264" r="2.5" fill="#B83232" />
+
+  <!-- Bagong Facial Features: Big Bulging Eye, Wide Laughing Mouth -->
+  <g>
+    <!-- Big Bulging Round Eye (Mripat Thelengan) with White Sclera and Black Iris -->
+    <circle cx="178" cy="82" r="9" fill="#FFFFFF" stroke="#1F1B19" stroke-width="2.2" />
+    <circle cx="178" cy="82" r="4.5" fill="#1F1B19" />
+    <circle cx="180" cy="80" r="1.5" fill="#FFFFFF" />
+    <path d="M165,70 Q178,64 192,70" stroke="#1F1B19" stroke-width="2.2" stroke-linecap="round" fill="none" />
+
+    <!-- Wide Open Laughing Mouth (Cangkem Ngablak) with Teeth & Ruby Tongue -->
+    <path d="M168,112 Q194,134 212,110" stroke="#1F1B19" stroke-width="2.8" stroke-linecap="round" fill="none" />
+    <path d="M172,114 Q194,130 208,112 Z" fill="#B83232" stroke="#1F1B19" stroke-width="1" />
+    <rect x="180" y="113" width="16" height="5" rx="1.5" fill="#FFFFFF" stroke="#1F1B19" stroke-width="0.8" />
+
+    <!-- Chubby Cheek line & Navel -->
+    <path d="M160,98 Q166,108 164,116" stroke="#1F1B19" stroke-width="1.8" stroke-linecap="round" fill="none" />
+    <circle cx="142" cy="235" r="3" fill="#B83232" stroke="#1F1B19" stroke-width="1.2" />
+  </g>
+
+  <!-- Golden Ankle Bangles (Binggel Kaki) -->
+  <rect x="120" y="375" width="25" height="6" rx="1.5" fill="#C9A96E" stroke="#1F1B19" stroke-width="1.2" />
 </svg>

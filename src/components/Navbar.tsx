@@ -50,7 +50,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onNavigate }) => {
           >
             <div className="w-8 h-10 flex-shrink-0">
               <img
-                src="/wayang/gunungan.svg"
+                src="/wayang/gunungan-gold.png"
                 alt="Gunungan Emblem"
                 className="w-full h-full object-contain text-gold-400 group-hover:scale-105 transition-transform"
               />

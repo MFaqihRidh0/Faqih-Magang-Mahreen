@@ -4,7 +4,7 @@ export type WayangFigure = 'gunungan' | 'semar' | 'gareng' | 'petruk' | 'bagong'
 
 interface WayangSilhouetteProps {
   figure: WayangFigure;
-  color?: 'charcoal' | 'gold' | 'cream';
+  color?: 'charcoal' | 'gold' | 'cream' | 'prada';
   className?: string;
   height?: number | string;
   animate?: boolean;
@@ -13,33 +13,30 @@ interface WayangSilhouetteProps {
 
 export const WayangSilhouette: React.FC<WayangSilhouetteProps> = ({
   figure,
-  color = 'charcoal',
+  color = 'prada',
   className = '',
   height = 240,
   animate = true,
   shadowEffect = true,
 }) => {
   const isKsatria = figure === 'ksatria';
+  const isGunungan = figure === 'gunungan';
 
-  const textColorClass =
-    color === 'charcoal'
-      ? 'text-charcoal-950'
-      : color === 'gold'
-      ? 'text-gold-500'
-      : 'text-cream-100';
-
-  // Kelir shadow effect: soft double shadow + subtle blur like cloth projection
+  // Radiant Golden Prada Shadow Effect
   const shadowStyle = shadowEffect
     ? {
         filter: isKsatria
-          ? 'drop-shadow(0 0 20px rgba(201, 169, 110, 0.45)) drop-shadow(2px 6px 12px rgba(23, 20, 18, 0.6))'
-          : color === 'charcoal'
-          ? 'drop-shadow(3px 4px 6px rgba(23, 20, 18, 0.45)) drop-shadow(1px 2px 3px rgba(23, 20, 18, 0.6))'
-          : 'drop-shadow(0 0 12px rgba(201, 169, 110, 0.5))',
+          ? 'drop-shadow(0 0 25px rgba(201, 169, 110, 0.6)) drop-shadow(2px 6px 12px rgba(23, 20, 18, 0.4))'
+          : 'drop-shadow(0 4px 14px rgba(201, 169, 110, 0.35)) drop-shadow(1px 2px 4px rgba(23, 20, 18, 0.2))',
       }
     : {};
 
-  const imageSrc = isKsatria ? '/wayang/wayang-ksatria.png' : `/wayang/${figure}.svg`;
+  let imageSrc = `/wayang/${figure}.png`;
+  if (isKsatria) {
+    imageSrc = '/wayang/wayang-ksatria.png';
+  } else if (isGunungan && (color === 'gold' || color === 'cream')) {
+    imageSrc = '/wayang/gunungan-gold.png';
+  }
 
   return (
     <div
@@ -53,7 +50,7 @@ export const WayangSilhouette: React.FC<WayangSilhouetteProps> = ({
       <img
         src={imageSrc}
         alt={`Wayang ${figure}`}
-        className={`h-full w-auto object-contain ${!isKsatria ? textColorClass : ''}`}
+        className="h-full w-auto object-contain"
         draggable={false}
       />
     </div>

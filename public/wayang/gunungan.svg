@@ -1,89 +1,117 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" fill="none">
-  <!-- Outer Kayon / Gunungan Leaf Silhouette (Solid Golden Body) -->
+  <!-- Gunungan Kayonan Prada Emas Asli (Full Color Traditional Wayang Kulit) -->
+
+  <defs>
+    <!-- Gold Gradient for Radiant Leaf Body -->
+    <linearGradient id="gununganGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#F5EEDF" />
+      <stop offset="35%" stopColor="#E5C477" />
+      <stop offset="70%" stopColor="#C9A96E" />
+      <stop offset="100%" stopColor="#9E7B3B" />
+    </linearGradient>
+
+    <!-- Red Temple Door Gradient -->
+    <linearGradient id="doorRed" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stopColor="#D94343" />
+      <stop offset="100%" stopColor="#8A1E1E" />
+    </linearGradient>
+  </defs>
+
+  <!-- Gapit Central Rod (Tangkai Tanduk Kerbau Cokelat Keemasan) -->
+  <rect x="193" y="460" width="14" height="135" rx="4" fill="#8C6239" stroke="#4A3018" stroke-width="2" />
+  <rect x="195" y="180" width="10" height="285" rx="3" fill="#5C3D1E" opacity="0.65" />
+
+  <!-- Outer Kayon / Gunungan Leaf Silhouette (Solid Golden Body with Rich Stroke) -->
   <path d="M200,20 
            C240,90 340,210 350,340 
            C355,420 320,470 280,485 
            L280,510 L120,510 L120,485 
            C80,470 45,420 50,340 
            C60,210 160,90 200,20 Z" 
-        fill="currentColor" />
+        fill="url(#gununganGold)" 
+        stroke="#1F1B19" 
+        stroke-width="3" />
 
-  <!-- Gapit Central Rod (Tangkai Wayang Kulit) -->
-  <rect x="194" y="470" width="12" height="120" rx="4" fill="#7E6337" opacity="0.85" />
-  <rect x="196" y="200" width="8" height="270" rx="3" fill="#171412" opacity="0.35" />
+  <!-- Inner Ornate Decorative Border Band -->
+  <path d="M200,35 C235,95 325,210 335,335 C340,405 310,455 270,470 L130,470 C90,455 60,405 65,335 C75,210 165,95 200,35 Z" 
+        stroke="#8A1E1E" 
+        stroke-width="3.5" 
+        stroke-dasharray="6 3" 
+        fill="none" />
+  <path d="M200,42 C230,100 318,212 328,332 C332,398 305,446 266,460 L134,460 C95,446 68,398 72,332 C82,212 170,100 200,42 Z" 
+        stroke="#1F1B19" 
+        stroke-width="1.8" 
+        fill="none" />
 
-  <!-- Ornate Tatahan (Cutout filigree carving in contrasting dark charcoal / negative space) -->
-  <g stroke="#171412" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none">
-    
-    <!-- Outer Border Filigree (Pinggiran Ukir) -->
-    <path d="M200,35 C235,95 325,210 335,335 C340,405 310,455 270,470 L130,470 C90,455 60,405 65,335 C75,210 165,95 200,35 Z" stroke-width="1.8" stroke-dasharray="6 4" />
+  <!-- GAPURA AGUNG (Sacred Central Temple Gate at Base) -->
+  <g>
+    <!-- Base Platform & Stepped Plinth in Stone & Gold -->
+    <rect x="140" y="445" width="120" height="22" rx="3" fill="#D6BC8A" stroke="#1F1B19" stroke-width="2.5" />
+    <rect x="148" y="435" width="104" height="12" rx="2" fill="#E5C477" stroke="#1F1B19" stroke-width="2" />
+    <line x1="135" y1="467" x2="265" y2="467" stroke="#1F1B19" stroke-width="3.5" />
 
-    <!-- POHON HAYAT (Tree of Life Central Trunk) -->
-    <path d="M200,470 L200,120" stroke-width="4.5" />
-    <path d="M192,470 L192,260 M208,470 L208,260" stroke-width="2" />
+    <!-- Gate Pillars (Tiang Candi Emas) -->
+    <rect x="155" y="340" width="22" height="95" fill="#E5C477" stroke="#1F1B19" stroke-width="2.5" />
+    <rect x="223" y="340" width="22" height="95" fill="#E5C477" stroke="#1F1B19" stroke-width="2.5" />
+    <!-- Pillar Carved Details -->
+    <line x1="150" y1="350" x2="182" y2="350" stroke="#8A1E1E" stroke-width="3" />
+    <line x1="218" y1="350" x2="250" y2="350" stroke="#8A1E1E" stroke-width="3" />
+    <line x1="150" y1="428" x2="182" y2="428" stroke="#8A1E1E" stroke-width="3" />
+    <line x1="218" y1="428" x2="250" y2="428" stroke="#8A1E1E" stroke-width="3" />
 
-    <!-- GAPURA AGUNG (Sacred Central Temple Gate at Base) -->
-    <!-- Base Platform & Steps -->
-    <rect x="145" y="440" width="110" height="25" rx="3" fill="#171412" fill-opacity="0.25" stroke-width="2" />
-    <line x1="140" y1="465" x2="260" y2="465" stroke-width="3" />
-    <line x1="150" y1="452" x2="250" y2="452" stroke-width="1.5" />
+    <!-- Double Red Temple Doors (Lawang Genthong Abang) -->
+    <path d="M177,435 L177,360 Q188,348 200,348 Q212,348 223,360 L223,435 Z" fill="url(#doorRed)" stroke="#1F1B19" stroke-width="2.5" />
+    <line x1="200" y1="348" x2="200" y2="435" stroke="#E5C477" stroke-width="2.5" />
+    <!-- Golden Door Knobs -->
+    <circle cx="193" cy="395" r="3.5" fill="#F5EEDF" stroke="#1F1B19" stroke-width="1.2" />
+    <circle cx="207" cy="395" r="3.5" fill="#F5EEDF" stroke="#1F1B19" stroke-width="1.2" />
 
-    <!-- Gate Pillars -->
-    <rect x="155" y="340" width="22" height="100" fill="#171412" fill-opacity="0.2" stroke-width="2.5" />
-    <rect x="223" y="340" width="22" height="100" fill="#171412" fill-opacity="0.2" stroke-width="2.5" />
-    
-    <!-- Pillar capital & base moldings -->
-    <line x1="150" y1="350" x2="182" y2="350" stroke-width="3" />
-    <line x1="218" y1="350" x2="250" y2="350" stroke-width="3" />
-    <line x1="150" y1="435" x2="182" y2="435" stroke-width="3" />
-    <line x1="218" y1="435" x2="250" y2="435" stroke-width="3" />
+    <!-- KALA MASK (Batara Kala di Puncak Gapura) -->
+    <path d="M165,340 Q200,305 235,340 Z" fill="#8A1E1E" stroke="#1F1B19" stroke-width="2.5" />
+    <circle cx="185" cy="328" r="5" fill="#FFFFFF" stroke="#1F1B19" stroke-width="1.5" />
+    <circle cx="185" cy="328" r="2.5" fill="#1F1B19" />
+    <circle cx="215" cy="328" r="5" fill="#FFFFFF" stroke="#1F1B19" stroke-width="1.5" />
+    <circle cx="215" cy="328" r="2.5" fill="#1F1B19" />
+    <path d="M175,338 Q200,345 225,338" stroke="#FFFFFF" stroke-width="2.5" fill="none" />
+  </g>
 
-    <!-- Gate Doors (Pintu Lawang Genthong) -->
-    <path d="M177,440 L177,360 Q188,350 200,350 Q212,350 223,360 L223,440 Z" fill="#171412" fill-opacity="0.35" stroke-width="2.5" />
-    <line x1="200" y1="350" x2="200" y2="440" stroke-width="2" />
+  <!-- POHON HAYAT / KALPATARU (Tree of Life Spreading Branches) -->
+  <g stroke="#1F1B19" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Main Tree Trunk -->
+    <path d="M200,435 L200,105" stroke-width="5" stroke="#5C3D1E" />
+    <path d="M192,435 L192,260 M208,435 L208,260" stroke-width="2" stroke="#8C6239" />
 
-    <!-- KALA / KIRTAMUKHA (Guardian Mask atop Gate) -->
-    <path d="M165,340 Q200,310 235,340 Z" fill="#171412" fill-opacity="0.4" stroke-width="2.5" />
-    <circle cx="185" cy="330" r="4.5" fill="#171412" />
-    <circle cx="215" cy="330" r="4.5" fill="#171412" />
-    <path d="M175,340 Q200,346 225,340" stroke-width="2" />
+    <!-- Spreading Branches with Leaf Clusters -->
+    <!-- Tier 1 -->
+    <path d="M200,280 C240,255 285,275 305,315" stroke-width="3.5" stroke="#1F1B19" />
+    <path d="M200,280 C160,255 115,275 95,315" stroke-width="3.5" stroke="#1F1B19" />
+    <circle cx="305" cy="315" r="9" fill="#8A1E1E" stroke="#1F1B19" stroke-width="2" />
+    <circle cx="305" cy="315" r="4.5" fill="#F5EEDF" />
+    <circle cx="95" cy="315" r="9" fill="#8A1E1E" stroke="#1F1B19" stroke-width="2" />
+    <circle cx="95" cy="315" r="4.5" fill="#F5EEDF" />
 
-    <!-- BRANCHES SPREADING OUTWARD (Ranting & Dahan Pohon Hayat) -->
-    <!-- Tier 1 Branches -->
-    <path d="M200,280 C240,260 285,280 305,320" stroke-width="3" />
-    <path d="M200,280 C160,260 115,280 95,320" stroke-width="3" />
-    <path d="M255,273 C275,250 310,260 325,290" stroke-width="2" />
-    <path d="M145,273 C125,250 90,260 75,290" stroke-width="2" />
+    <!-- Tier 2 -->
+    <path d="M200,215 C235,180 275,195 295,235" stroke-width="3" stroke="#1F1B19" />
+    <path d="M200,215 C165,180 125,195 105,235" stroke-width="3" stroke="#1F1B19" />
+    <circle cx="295" cy="235" r="8" fill="#8A1E1E" stroke="#1F1B19" stroke-width="2" />
+    <circle cx="295" cy="235" r="4" fill="#F5EEDF" />
+    <circle cx="105" cy="235" r="8" fill="#8A1E1E" stroke="#1F1B19" stroke-width="2" />
+    <circle cx="105" cy="235" r="4" fill="#F5EEDF" />
 
-    <!-- Tier 2 Branches -->
-    <path d="M200,220 C235,185 275,200 295,240" stroke-width="2.8" />
-    <path d="M200,220 C165,185 125,200 105,240" stroke-width="2.8" />
-    <path d="M240,200 C265,170 290,185 300,215" stroke-width="1.8" />
-    <path d="M160,200 C135,170 110,185 100,215" stroke-width="1.8" />
+    <!-- Tier 3 Upper Canopy -->
+    <path d="M200,155 C225,120 255,130 270,165" stroke-width="2.5" stroke="#1F1B19" />
+    <path d="M200,155 C175,120 145,130 130,165" stroke-width="2.5" stroke="#1F1B19" />
+    <circle cx="270" cy="165" r="7" fill="#8A1E1E" stroke="#1F1B19" stroke-width="1.8" />
+    <circle cx="270" cy="165" r="3.5" fill="#F5EEDF" />
+    <circle cx="130" cy="165" r="7" fill="#8A1E1E" stroke="#1F1B19" stroke-width="1.8" />
+    <circle cx="130" cy="165" r="3.5" fill="#F5EEDF" />
 
-    <!-- Tier 3 Upper Canopy Branches -->
-    <path d="M200,165 C225,130 255,140 270,175" stroke-width="2.2" />
-    <path d="M200,165 C175,130 145,140 130,175" stroke-width="2.2" />
-    <path d="M200,120 C215,90 235,95 245,125" stroke-width="2" />
-    <path d="M200,120 C185,90 165,95 155,125" stroke-width="2" />
+    <!-- GARUDA WINGS (Sayap Lar) in Red and Gold -->
+    <path d="M110,380 C75,360 80,325 105,305 C90,300 80,280 110,265" stroke-width="2.8" stroke="#8A1E1E" />
+    <path d="M290,380 C325,360 320,325 295,305 C310,300 320,280 290,265" stroke-width="2.8" stroke="#8A1E1E" />
 
-    <!-- GARUDA WINGS / SAYAP LAR (Side Wing Motifs) -->
-    <path d="M110,380 C80,360 85,325 110,305 C95,300 85,280 115,265" stroke-width="2" />
-    <path d="M290,380 C320,360 315,325 290,305 C305,300 315,280 285,265" stroke-width="2" />
-
-    <!-- INTRICATE TATAHAN FOLIAGE & SACRED BLOSSOMS (Titik & Bunga Tatahan) -->
-    <!-- Blossoms left & right -->
-    <circle cx="305" cy="320" r="7" fill="#171412" fill-opacity="0.3" stroke-width="2" />
-    <circle cx="95" cy="320" r="7" fill="#171412" fill-opacity="0.3" stroke-width="2" />
-    <circle cx="295" cy="240" r="6" fill="#171412" fill-opacity="0.3" stroke-width="2" />
-    <circle cx="105" cy="240" r="6" fill="#171412" fill-opacity="0.3" stroke-width="2" />
-    <circle cx="270" cy="175" r="5" fill="#171412" fill-opacity="0.3" stroke-width="1.8" />
-    <circle cx="130" cy="175" r="5" fill="#171412" fill-opacity="0.3" stroke-width="1.8" />
-    <circle cx="245" cy="125" r="4.5" fill="#171412" fill-opacity="0.3" stroke-width="1.8" />
-    <circle cx="155" cy="125" r="4.5" fill="#171412" fill-opacity="0.3" stroke-width="1.8" />
-
-    <!-- Sacred Pinnacle Flame (Lidah Api Puncak Gunungan) -->
-    <path d="M200,20 C195,50 185,75 200,95 C215,75 205,50 200,20 Z" fill="#171412" fill-opacity="0.35" stroke-width="2" />
-    <circle cx="200" cy="70" r="3.5" fill="#171412" />
+    <!-- Sacred Crown Flame Peak (Lidah Api Emas Puncak) -->
+    <path d="M200,20 C194,50 185,75 200,95 C215,75 206,50 200,20 Z" fill="#8A1E1E" stroke="#1F1B19" stroke-width="2" />
+    <circle cx="200" cy="65" r="4.5" fill="#F5EEDF" stroke="#1F1B19" stroke-width="1.2" />
   </g>
 </svg>

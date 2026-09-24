@@ -146,11 +146,11 @@ export const PathQuiz: React.FC = () => {
             <div className="lg:col-span-5 flex flex-col items-center text-center">
               
               {/* Dialogue Speech Balloon */}
-              <div className="relative bg-cream-50 border-2 border-charcoal-950 text-charcoal-950 px-5 py-4 rounded-2xl shadow-md max-w-sm mb-6 animate-in zoom-in-95 duration-300">
+              <div className="relative bg-cream-50 border-2 border-charcoal-950 text-charcoal-950 px-4 py-3 rounded-2xl shadow-md max-w-xs mb-3 animate-in zoom-in-95 duration-300">
                 <span className="block text-[11px] font-bold uppercase tracking-wider text-gold-700">
                   {activePunakawan?.name} ({activePunakawan?.trait})
                 </span>
-                <p className="font-caveat text-xl sm:text-2xl mt-1 leading-snug font-bold">
+                <p className="font-caveat text-xl sm:text-2xl mt-0.5 leading-snug font-bold">
                   "{currentQ.balloon}"
                 </p>
                 {/* Speech arrow */}
@@ -158,11 +158,11 @@ export const PathQuiz: React.FC = () => {
               </div>
 
               {/* Wayang Silhouette of current Punakawan */}
-              <div className="h-56 sm:h-64 flex items-end justify-center">
+              <div className="h-44 sm:h-52 flex items-end justify-center">
                 <WayangSilhouette
                   figure={currentQ.punakawanId as any}
-                  color="charcoal"
-                  height={220}
+                  color="prada"
+                  height={190}
                   shadowEffect={true}
                 />
               </div>
@@ -258,11 +258,11 @@ export const PathQuiz: React.FC = () => {
                 Didukung Penuh oleh Empat Punakawan
               </span>
               <div className="flex items-end justify-center gap-3 sm:gap-6 h-28 sm:h-36">
-                <WayangSilhouette figure="semar" color="charcoal" height={100} shadowEffect={false} />
-                <WayangSilhouette figure="gareng" color="charcoal" height={85} shadowEffect={false} />
-                <WayangSilhouette figure="gunungan" color="charcoal" height={130} shadowEffect={true} />
-                <WayangSilhouette figure="petruk" color="charcoal" height={120} shadowEffect={false} />
-                <WayangSilhouette figure="bagong" color="charcoal" height={95} shadowEffect={false} />
+                <WayangSilhouette figure="semar" color="prada" height={105} shadowEffect={true} />
+                <WayangSilhouette figure="gareng" color="prada" height={90} shadowEffect={true} />
+                <WayangSilhouette figure="gunungan" color="prada" height={135} shadowEffect={true} />
+                <WayangSilhouette figure="petruk" color="prada" height={125} shadowEffect={true} />
+                <WayangSilhouette figure="bagong" color="prada" height={100} shadowEffect={true} />
               </div>
             </div>
 

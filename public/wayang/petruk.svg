@@ -1,5 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 440" fill="none">
-  <!-- Petruk Kantong Bolong Silhouette (Solid in currentColor) -->
+  <!-- Petruk Kantong Bolong Prada Emas Asli (Full Color Traditional Wayang Kulit) -->
+
+  <!-- Gapit Central Rod (Tangkai Tanduk Kerbau Cokelat Keemasan) -->
+  <rect x="131" y="320" width="10" height="115" rx="3" fill="#8C6239" stroke="#4A3018" stroke-width="1.5" />
+  <rect x="133" y="195" width="6" height="130" rx="2" fill="#5C3D1E" opacity="0.6" />
+
+  <!-- Long Expressive Slender Arms (Golden Skin) -->
+  <path d="M162,145 C202,140 242,172 260,205 C248,212 215,186 170,172 Z" fill="#E8C988" stroke="#1F1B19" stroke-width="2.2" />
+  <path d="M106,155 C80,180 75,225 90,265 C100,258 98,220 115,188 Z" fill="#E8C988" stroke="#1F1B19" stroke-width="2.2" />
+
+  <!-- Petruk Golden Body Base -->
   <path d="M125,50 
            C130,32 142,24 156,24 
            C160,14 168,12 172,18 
@@ -14,46 +24,53 @@
            C92,310 92,268 98,220 
            C105,170 110,138 114,115 
            C108,100 114,70 125,50 Z" 
-        fill="currentColor" />
+        fill="#E8C988" 
+        stroke="#1F1B19" 
+        stroke-width="2.5" />
 
-  <!-- Long Expressive Slender Arms (Tangan Dawa Petruk) -->
-  <path d="M162,145 C202,140 242,172 260,205 C248,212 215,186 170,172 Z" fill="currentColor" />
-  <path d="M106,155 C80,180 75,225 90,265 C100,258 98,220 115,188 Z" fill="currentColor" />
+  <!-- Black Hair Knot with Gold Ring -->
+  <path d="M160,46 Q168,30 172,18 C168,12 160,14 156,24 Z" fill="#1F1B19" stroke="#1F1B19" stroke-width="1.5" />
+  <rect x="158" y="28" width="10" height="4" rx="1.5" fill="#E5C477" stroke="#1F1B19" stroke-width="1" />
 
-  <!-- Gapit Central Rod (Tangkai Wayang) -->
-  <rect x="131" y="325" width="10" height="110" rx="3" fill="#7E6337" opacity="0.85" />
+  <!-- Sumping (Ear Stud in Gold & Ruby Red) -->
+  <circle cx="132" cy="85" r="6" fill="#C9A96E" stroke="#1F1B19" stroke-width="1.8" />
+  <circle cx="132" cy="85" r="3" fill="#B83232" />
 
-  <!-- Ornate Tatahan Carving Details -->
-  <g stroke="#171412" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none">
+  <!-- Kain Batik Sarong (Warm Cream & Poleng / Parang Lines) -->
+  <g>
+    <path d="M102,225 C102,280 120,330 140,342 L160,335 C170,300 174,260 174,225 Z" fill="#F5EEDF" stroke="#1F1B19" stroke-width="2" />
+    <path d="M110,240 L166,240 M108,265 L170,265 M112,290 L165,290 M120,315 L158,315" stroke="#B83232" stroke-width="2.5" />
+    <path d="M125,225 L120,338 M145,225 L145,340" stroke="#1F1B19" stroke-width="2" stroke-dasharray="3 3" />
     
-    <!-- Petruk's Distinctive Long Pointed Nose (Irung Mancung Dawa) -->
-    <path d="M165,72 L254,82" stroke-width="2.8" />
-    <path d="M254,82 L258,88 L188,98" stroke-width="2.5" />
-
-    <!-- Bright, Jovial Eye & Brow -->
-    <circle cx="155" cy="65" r="3.5" stroke-width="2" fill="#171412" />
-    <path d="M145,56 Q158,50 170,56" stroke-width="2" />
-
-    <!-- Wide Signature Laugh / Grin -->
-    <path d="M152,104 Q168,116 182,100" stroke-width="2.5" />
-    <path d="M158,106 Q168,110 176,106" stroke-width="1.5" />
-
-    <!-- Sumping Ear Ornament & Hair Knot (Kuncung mburi) -->
-    <circle cx="132" cy="85" r="4.5" stroke-width="2" />
-    <path d="M160,46 Q168,30 172,18" stroke-width="2" />
-
-    <!-- Slender Waist Sash & Belt (Sabuk Cinde) -->
-    <path d="M110,225 Q138,238 166,225" stroke-width="2.5" />
-    <path d="M108,245 Q138,258 164,245" stroke-width="2" stroke-dasharray="3 3" />
-    <rect x="132" y="228" width="12" height="12" rx="2" fill="#171412" stroke-width="1.5" />
-
-    <!-- Kain Batik Pattern on Sarong -->
-    <path d="M112,275 Q138,290 160,275" stroke-width="1.8" />
-    <path d="M116,305 Q138,320 156,305" stroke-width="1.8" stroke-dasharray="3 3" />
-
-    <!-- Arm & Leg Bangles -->
-    <line x1="225" y1="185" x2="242" y2="195" stroke-width="2" />
-    <line x1="140" y1="380" x2="160" y2="380" stroke-width="2" />
-    <line x1="105" y1="380" x2="122" y2="380" stroke-width="2" />
+    <!-- Red Silk Sash (Sampur Abang) -->
+    <path d="M138,225 Q140,280 142,340 L149,340 Q146,280 144,225 Z" fill="#B83232" stroke="#1F1B19" stroke-width="1.5" />
   </g>
+
+  <!-- Golden Waistband (Sabuk Emas) -->
+  <path d="M106,225 Q138,238 174,225" stroke="#C9A96E" stroke-width="7" fill="none" />
+  <path d="M106,225 Q138,238 174,225" stroke="#1F1B19" stroke-width="1.8" fill="none" />
+  <rect x="132" y="228" width="14" height="12" rx="2" fill="#E5C477" stroke="#1F1B19" stroke-width="1.5" />
+  <circle cx="139" cy="234" r="2.5" fill="#B83232" />
+
+  <!-- Petruk Iconic Face Features: Long Nose, Joyous Smile, Bright Eyes -->
+  <g>
+    <!-- Long Nose Bridge in Golden Skin with Sharp Outlines -->
+    <path d="M165,72 L254,82 L258,88 L188,98" stroke="#1F1B19" stroke-width="2.5" fill="#E8C988" />
+    <circle cx="254" cy="85" r="3" fill="#B83232" opacity="0.6" />
+
+    <!-- Bright Joyous Eye: White Sclera with Black Pupil -->
+    <ellipse cx="155" cy="65" rx="5.5" ry="4" fill="#FFFFFF" stroke="#1F1B19" stroke-width="1.5" />
+    <circle cx="155" cy="65" r="2.5" fill="#1F1B19" />
+    <path d="M145,56 Q158,49 170,56" stroke="#1F1B19" stroke-width="2.2" stroke-linecap="round" fill="none" />
+
+    <!-- Signature Broad Grin with White Teeth & Ruby Lips -->
+    <path d="M152,104 Q168,116 182,100" stroke="#1F1B19" stroke-width="2.5" stroke-linecap="round" fill="none" />
+    <path d="M156,104 Q168,112 178,102" fill="#B83232" />
+    <rect x="162" y="103" width="10" height="4" rx="1" fill="#FFFFFF" stroke="#1F1B19" stroke-width="0.8" />
+  </g>
+
+  <!-- Golden Bangles (Gelang Tangan & Binggel Kaki) -->
+  <rect x="228" y="185" width="16" height="5" rx="1.5" fill="#C9A96E" stroke="#1F1B19" stroke-width="1.2" />
+  <rect x="140" y="375" width="20" height="6" rx="1.5" fill="#C9A96E" stroke="#1F1B19" stroke-width="1.2" />
+  <rect x="105" y="375" width="17" height="6" rx="1.5" fill="#C9A96E" stroke="#1F1B19" stroke-width="1.2" />
 </svg>
