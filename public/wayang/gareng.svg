@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 350" fill="currentColor">
+  <!-- Nala Gareng Silhouette -->
+  <!-- Short, stocky build with curved arm and rounded nose -->
+  <path d="M120,50 
+           C120,35 130,25 140,25 
+           C145,20 148,15 152,18 
+           C148,26 150,35 142,42 
+           C152,48 165,55 168,68 
+           C175,70 178,78 172,85 
+           C165,88 158,85 152,88 
+           C150,105 165,130 165,165 
+           C165,200 150,230 135,245 
+           L135,280 L115,280 L115,250 
+           L95,250 L95,275 L80,275 L80,245 
+           C65,230 65,190 70,160 
+           C75,125 90,95 110,80 
+           C105,70 108,55 120,50 Z" />
+
+  <!-- Bent arm (Ceko gesture) -->
+  <path d="M140,110 C165,120 185,115 190,135 C180,145 160,135 140,140 Z" />
+  <path d="M90,120 C75,135 70,155 85,160 C95,150 95,135 90,120 Z" />
+
+  <!-- Gapit rod -->
+  <path d="M106,240 L106,345 L112,345 L112,240 Z" opacity="0.6"/>
+
+  <!-- Tatahan cutouts -->
+  <g fill="none" stroke="#F5EEDF" stroke-width="1.6" opacity="0.3" stroke-linecap="round">
+    <!-- Round protruding nose & round eye -->
+    <circle cx="160" cy="72" r="6" />
+    <circle cx="140" cy="62" r="2.5" fill="#F5EEDF" />
+    <path d="M135,55 Q142,50 148,55" />
+
+    <!-- Belt & cloth ornaments -->
+    <path d="M85,175 Q115,185 145,175" />
+    <path d="M88,190 Q115,200 142,190" stroke-dasharray="2 3"/>
+  </g>
+</svg>

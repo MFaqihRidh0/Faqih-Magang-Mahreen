@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    color-scheme: dark;
+  }
+
+  body {
+    background-color: #2A2623;
+    color: #F5EEDF;
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: 'DM Serif Display', Georgia, serif;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #171412;
+}
+::-webkit-scrollbar-thumb {
+  background: #A8864F;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C9A96E;
+}
+
+/* Glow effects & Blencong light */
+.blencong-glow {
+  background: radial-gradient(circle at 50% 20%, rgba(227, 207, 166, 0.45) 0%, rgba(201, 169, 110, 0.2) 40%, transparent 75%);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #F5EEDF 20%, #C9A96E 60%, #E3CFA6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Focus styles WCAG */
+:focus-visible {
+  outline: 2px solid #E3CFA6;
+  outline-offset: 3px;
+}
+
+/* Animation helpers */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

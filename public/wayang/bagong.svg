@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 350" fill="currentColor">
+  <!-- Bagong Silhouette -->
+  <!-- Stout, round figure, big bulging eyes, wide grinning mouth -->
+  <path d="M110,65 
+           C110,45 120,35 130,35 
+           C135,25 138,20 145,22 
+           C142,30 142,38 138,45 
+           C150,50 162,60 165,75 
+           C175,80 182,95 175,108 
+           C168,112 160,110 152,112 
+           C155,135 175,160 175,200 
+           C175,245 145,275 115,280 
+           L115,310 L95,310 L95,280 
+           C55,275 45,240 45,190 
+           C45,140 75,100 100,85 
+           C98,75 100,68 110,65 Z" />
+
+  <!-- Playful expressive hands -->
+  <path d="M150,130 C180,140 205,130 215,145 C205,160 180,155 152,150 Z" />
+  <path d="M75,135 C55,150 50,175 62,190 C72,185 75,165 85,150 Z" />
+
+  <!-- Gapit rod -->
+  <path d="M102,270 L102,345 L108,345 L108,270 Z" opacity="0.6"/>
+
+  <!-- Tatahan cutouts -->
+  <g fill="none" stroke="#F5EEDF" stroke-width="1.6" opacity="0.3" stroke-linecap="round">
+    <!-- Big round eye (thelengan) -->
+    <circle cx="140" cy="65" r="7" />
+    <circle cx="140" cy="65" r="3.5" fill="#F5EEDF" />
+
+    <!-- Wide laughing mouth -->
+    <path d="M135,90 Q155,105 170,88" stroke-width="2"/>
+    <path d="M138,92 L165,92" stroke-dasharray="2 2"/>
+
+    <!-- Round belly girdle -->
+    <path d="M65,205 Q115,225 155,205" />
+    <path d="M68,222 Q115,242 150,222" stroke-dasharray="2 3"/>
+  </g>
+</svg>

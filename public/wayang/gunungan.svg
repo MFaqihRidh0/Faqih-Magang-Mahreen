@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 450" fill="currentColor">
+  <!-- Outer Kayon / Gunungan Leaf Silhouette -->
+  <path d="M150,15 
+           C185,80 260,180 260,280 
+           C260,345 230,375 200,385 
+           L200,430 L100,430 L100,385 
+           C70,375 40,345 40,280 
+           C40,180 115,80 150,15 Z" />
+  
+  <!-- Gapit (Wayang handle at base) -->
+  <path d="M144,380 L144,445 L156,445 L156,380 Z" fill="#7E6337" opacity="0.6"/>
+
+  <!-- Tatahan (Cutout carving patterns) in mask / negative space using charcoal or transparent cutout -->
+  <!-- We use fill="none" with stroke for cutout lines or contrasting gold/charcoal -->
+  <g fill="none" stroke="#2A2623" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Tree of Life (Pohon Hayat) central trunk -->
+    <path d="M150,380 L150,110" stroke-width="4"/>
+    
+    <!-- Central Sacred Temple Gate (Gapura) -->
+    <path d="M110,380 L110,290 L190,290 L190,380" stroke-width="3"/>
+    <path d="M125,290 L125,380 M175,290 L175,380" stroke-width="1.5"/>
+    <path d="M100,290 L150,230 L200,290 Z" stroke-width="3"/>
+    <circle cx="150" cy="260" r="12" stroke-width="2"/>
+    
+    <!-- Branches spreading outward -->
+    <path d="M150,210 C180,180 220,195 235,230" stroke-width="2.5"/>
+    <path d="M150,210 C120,180 80,195 65,230" stroke-width="2.5"/>
+    <path d="M150,165 C175,140 210,150 220,175" stroke-width="2"/>
+    <path d="M150,165 C125,140 90,150 80,175" stroke-width="2"/>
+    <path d="M150,130 C165,110 190,115 195,135" stroke-width="2"/>
+    <path d="M150,130 C135,110 110,115 105,135" stroke-width="2"/>
+
+    <!-- Fine foliage filigree (Tatahan Daun) -->
+    <circle cx="210" cy="260" r="4" fill="#2A2623"/>
+    <circle cx="90" cy="260" r="4" fill="#2A2623"/>
+    <circle cx="195" cy="205" r="3.5" fill="#2A2623"/>
+    <circle cx="105" cy="205" r="3.5" fill="#2A2623"/>
+    <circle cx="180" cy="155" r="3" fill="#2A2623"/>
+    <circle cx="120" cy="155" r="3" fill="#2A2623"/>
+    <circle cx="150" cy="75" r="3" fill="#2A2623"/>
+
+    <!-- Winged accents (Sayap Garudeya) -->
+    <path d="M80,330 Q60,300 75,270" stroke-width="1.5"/>
+    <path d="M220,330 Q240,300 225,270" stroke-width="1.5"/>
+  </g>
+</svg>

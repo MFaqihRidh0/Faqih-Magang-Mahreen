@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 350" fill="currentColor">
+  <!-- Petruk Kantong Bolong Silhouette -->
+  <!-- Tall, lanky figure with famous long pointed nose -->
+  <path d="M100,40 
+           C105,25 115,20 125,20 
+           C128,12 135,10 138,15 
+           C134,22 135,30 128,38 
+           C138,42 145,50 148,60 
+           L200,66 L205,73 L150,78 
+           C152,88 145,95 138,98 
+           C135,115 140,140 138,180 
+           C135,220 130,250 125,270 
+           L128,310 L112,310 L112,275 
+           L98,275 L98,310 L85,310 L88,270 
+           C75,250 75,215 80,175 
+           C85,135 90,110 92,92 
+           C88,80 92,55 100,40 Z" />
+
+  <!-- Long expressive arms -->
+  <path d="M130,115 C160,110 190,135 205,160 C195,165 170,145 135,135 Z" />
+  <path d="M85,125 C65,145 60,180 72,210 C80,205 78,175 92,150 Z" />
+
+  <!-- Gapit rod -->
+  <path d="M104,260 L104,345 L110,345 L110,260 Z" opacity="0.6"/>
+
+  <!-- Tatahan cutouts -->
+  <g fill="none" stroke="#F5EEDF" stroke-width="1.5" opacity="0.3" stroke-linecap="round">
+    <!-- Long nose bridge & bright eye -->
+    <path d="M130,55 L190,67" />
+    <circle cx="125" cy="52" r="2.5" fill="#F5EEDF" />
+    <!-- Broad smile -->
+    <path d="M125,82 Q136,88 145,80" />
+
+    <!-- Slender waist cloth details -->
+    <path d="M88,180 Q110,190 132,180" />
+    <path d="M86,195 Q110,205 130,195" stroke-dasharray="2 3"/>
+  </g>
+</svg>
