@@ -332,16 +332,9 @@ export const BorobudurProcedural: React.FC<BorobudurProceduralProps> = ({ mouseP
     return positions;
   }, []);
 
-  // Frame animation: continuous gentle rotation & subtle parallax
-  useFrame((state, delta) => {
-    if (groupRef.current) {
-      groupRef.current.rotation.y += delta * 0.08;
-
-      const targetRotX = (mouseParallax.y * Math.PI) / 36;
-      const targetRotZ = -(mouseParallax.x * Math.PI) / 45;
-      groupRef.current.rotation.x = THREE.MathUtils.lerp(groupRef.current.rotation.x, targetRotX + 0.35, 0.05);
-      groupRef.current.rotation.z = THREE.MathUtils.lerp(groupRef.current.rotation.z, targetRotZ, 0.05);
-    }
+  // Subtle firefly lantern pulse
+  useFrame((state) => {
+    // Keep group steady for OrbitControls 360 degree inspection
   });
 
   return (
