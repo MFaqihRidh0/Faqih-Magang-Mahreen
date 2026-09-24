@@ -18,6 +18,9 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Project Brief & Private documents
+BRIEF_Website_Mahreen_BerkaryaUntukIndonesia.md
+
 # Editor & OS files
 .vscode/*
 !.vscode/extensions.json
