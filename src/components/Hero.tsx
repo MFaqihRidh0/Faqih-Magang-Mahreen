@@ -102,7 +102,7 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
               {/* Caption pill below 3D */}
               <div className="text-center mt-2 flex items-center justify-center gap-1.5">
                 <span className="text-[11px] uppercase tracking-widest text-gold-400/90 font-medium">
-                  ✦ Putar 360° — Geser Bebas untuk Melihat Seluruh Sisi Candi ✦
+                  ✦ Putar 360° : Geser Bebas untuk Melihat Seluruh Sisi Candi ✦
                 </span>
               </div>
             </div>

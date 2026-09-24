@@ -3,7 +3,7 @@ export const HERO_CONTENT = {
   h1Part1: 'Satu Ide. Satu Karya.',
   h1Highlight: 'Satu Dampak.',
   description:
-    'Leluhur kita berkarya lewat Borobudur, wayang, dan batik. Kini giliranmu. Mahreen Indonesia adalah ekosistem kreativitas, teknologi digital, pengembangan talenta, bisnis, komunitas, dan kontribusi sosial — tempatmu belajar, berkarya, dan berdampak.',
+    'Leluhur kita berkarya lewat Borobudur, wayang, dan batik. Kini giliranmu. Mahreen Indonesia adalah ekosistem kreativitas, teknologi digital, pengembangan talenta, bisnis, komunitas, dan kontribusi sosial, tempatmu belajar, berkarya, dan berdampak.',
   ctaPrimary: 'Temukan Jalur Karyamu',
   ctaSecondary: 'Jelajahi Ekosistem',
   scrollIndicator: 'Gulir untuk Memulai Pagelaran'
@@ -248,5 +248,5 @@ export const FOOTER_CONTENT = {
       license: 'Open Font License (OFL)'
     }
   ],
-  prototypeNotice: 'Prototype oleh M Faqih Ridho untuk Seleksi Posisi Website Development — Mahreen Indonesia Internship Batch 2.'
+  prototypeNotice: 'Prototype oleh M Faqih Ridho untuk Seleksi Posisi Website Development: Mahreen Indonesia Internship Batch 2.'
 };

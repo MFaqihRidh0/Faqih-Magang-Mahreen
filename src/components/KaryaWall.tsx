@@ -210,7 +210,7 @@ export const KaryaWall: React.FC = () => {
 
               {/* Author footer */}
               <div className="mt-6 pt-3 border-t border-charcoal-950/15 flex items-center justify-between text-xs text-charcoal-800">
-                <span className="font-bold">— {post.author}</span>
+                <span className="font-bold">{post.author}</span>
                 <span className="text-gold-700 text-[10px] tracking-wider uppercase font-semibold">
                   #BerkaryaUntukIndonesia
                 </span>

@@ -1,8 +1,8 @@
-# Mahreen Indonesia — Landing Page "Berkarya Untuk Indonesia" (v2 · Nuansa Nusantara)
+# Mahreen Indonesia : Landing Page "Berkarya Untuk Indonesia" (v2 · Nuansa Nusantara)
 
-> **Proyek Seleksi Posisi Website Development — Mahreen Indonesia Internship Batch 2**  
+> **Proyek Seleksi Posisi Website Development - Mahreen Indonesia Internship Batch 2**  
 > Dikerjakan oleh: **M Faqih Ridho**  
-> Tema: **"BERKARYA UNTUK INDONESIA"** — *Satu Ide. Satu Karya. Satu Dampak.*
+> Tema: **"BERKARYA UNTUK INDONESIA"** : *Satu Ide. Satu Karya. Satu Dampak.*
 
 ---
 
