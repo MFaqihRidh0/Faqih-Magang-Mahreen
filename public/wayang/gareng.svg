@@ -1,37 +1,55 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 350" fill="currentColor">
-  <!-- Nala Gareng Silhouette -->
-  <!-- Short, stocky build with curved arm and rounded nose -->
-  <path d="M120,50 
-           C120,35 130,25 140,25 
-           C145,20 148,15 152,18 
-           C148,26 150,35 142,42 
-           C152,48 165,55 168,68 
-           C175,70 178,78 172,85 
-           C165,88 158,85 152,88 
-           C150,105 165,130 165,165 
-           C165,200 150,230 135,245 
-           L135,280 L115,280 L115,250 
-           L95,250 L95,275 L80,275 L80,245 
-           C65,230 65,190 70,160 
-           C75,125 90,95 110,80 
-           C105,70 108,55 120,50 Z" />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 440" fill="none">
+  <!-- Nala Gareng Silhouette Body (Solid in currentColor) -->
+  <path d="M150,65 
+           C150,45 162,35 175,35 
+           C180,25 186,18 194,22 
+           C188,32 190,44 182,52 
+           C195,58 208,68 214,84 
+           C224,86 228,96 220,105 
+           C212,108 202,104 195,108 
+           C192,130 210,165 210,210 
+           C210,255 190,292 172,310 
+           L172,355 L146,355 L146,316 
+           L120,316 L120,348 L100,348 L100,310 
+           C80,290 80,240 86,200 
+           C92,155 112,118 138,98 
+           C132,85 135,70 150,65 Z" 
+        fill="currentColor" />
 
-  <!-- Bent arm (Ceko gesture) -->
-  <path d="M140,110 C165,120 185,115 190,135 C180,145 160,135 140,140 Z" />
-  <path d="M90,120 C75,135 70,155 85,160 C95,150 95,135 90,120 Z" />
+  <!-- Iconic Bent Arms (Tangan Ceko Gareng) -->
+  <path d="M180,140 C212,154 238,146 244,172 C230,186 205,172 180,178 Z" fill="currentColor" />
+  <path d="M115,152 C95,172 90,198 110,205 C122,192 122,172 115,152 Z" fill="currentColor" />
 
-  <!-- Gapit rod -->
-  <path d="M106,240 L106,345 L112,345 L112,240 Z" opacity="0.6"/>
+  <!-- Gapit Central Rod -->
+  <rect x="133" y="300" width="10" height="135" rx="3" fill="#7E6337" opacity="0.85" />
 
-  <!-- Tatahan cutouts -->
-  <g fill="none" stroke="#F5EEDF" stroke-width="1.6" opacity="0.3" stroke-linecap="round">
-    <!-- Round protruding nose & round eye -->
-    <circle cx="160" cy="72" r="6" />
-    <circle cx="140" cy="62" r="2.5" fill="#F5EEDF" />
-    <path d="M135,55 Q142,50 148,55" />
+  <!-- Ornate Tatahan Carving Details -->
+  <g stroke="#171412" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    
+    <!-- Gareng's Head: Round Button Nose (Irung Bunder) & Cross-eyed Gaze (Mata Kero) -->
+    <ellipse cx="204" cy="94" rx="8" ry="7" stroke-width="2.5" />
+    <circle cx="178" cy="80" r="3.5" stroke-width="2" fill="#171412" />
+    <circle cx="168" cy="82" r="3" stroke-width="2" fill="#171412" />
+    <path d="M165,70 Q178,65 190,70" stroke-width="2" />
+    
+    <!-- Cheerful Grin -->
+    <path d="M172,108 Q188,118 202,106" stroke-width="2.5" />
 
-    <!-- Belt & cloth ornaments -->
-    <path d="M85,175 Q115,185 145,175" />
-    <path d="M88,190 Q115,200 142,190" stroke-dasharray="2 3"/>
+    <!-- Sumping (Ear Ornament) & Hair knot -->
+    <circle cx="148" cy="96" r="4.5" stroke-width="2" />
+    <path d="M182,52 Q190,36 194,22" stroke-width="2" />
+
+    <!-- Belt (Sabuk & Timang) -->
+    <path d="M106,220 Q146,236 186,220" stroke-width="2.5" />
+    <path d="M110,238 Q146,254 182,238" stroke-width="2" stroke-dasharray="3 3" />
+    <rect x="140" y="222" width="12" height="12" rx="2" fill="#171412" stroke-width="1.5" />
+
+    <!-- Kain Batik Parang / Poleng on Lower Garment -->
+    <path d="M115,260 Q146,275 178,260" stroke-width="1.8" />
+    <path d="M120,285 Q146,298 172,285" stroke-width="1.8" stroke-dasharray="3 3" />
+
+    <!-- Arm Bangles (Kelatbahu) & Ankle Rings (Binggel) -->
+    <line x1="210" y1="156" x2="225" y2="164" stroke-width="2" />
+    <line x1="146" y1="345" x2="172" y2="345" stroke-width="2" />
   </g>
 </svg>

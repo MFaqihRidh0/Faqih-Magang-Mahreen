@@ -1,38 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 350" fill="currentColor">
-  <!-- Kyai Semar Silhouette -->
-  <!-- Body, Head with Kuncung, and Round Belly -->
-  <path d="M110,60 
-           C110,40 125,30 135,30 
-           C140,20 145,15 155,15 
-           C150,25 152,35 145,45 
-           C155,50 160,65 150,80 
-           C170,90 190,120 190,160 
-           C190,210 160,260 120,270 
-           L120,300 L90,300 L90,270 
-           C50,265 40,220 40,170 
-           C40,120 70,85 100,75 
-           C95,70 100,60 110,60 Z" />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 440" fill="none">
+  <!-- Kyai Semar Silhouette Body (Solid Silhouette in currentColor) -->
+  <path d="M140,75 
+           C140,55 152,42 165,40 
+           C168,26 176,18 190,18 
+           C184,30 185,42 178,52 
+           C192,58 202,75 194,95 
+           C218,105 244,140 244,195 
+           C244,260 205,320 155,335 
+           L155,370 L115,370 L115,332 
+           C65,325 50,270 50,205 
+           C50,140 90,95 128,82 
+           C122,76 128,64 140,75 Z" 
+        fill="currentColor" />
 
-  <!-- Pointing Hand & Arm -->
-  <path d="M150,110 C180,110 215,95 225,90 C220,105 195,125 170,130 Z" />
+  <!-- Outstretched Guiding Arm & Hand (Tangan Nuding Bijaksana) -->
+  <path d="M192,130 C235,130 278,112 292,105 C286,124 254,148 222,154 Z" fill="currentColor" />
+  <path d="M110,145 C85,165 78,195 95,200 C110,190 115,168 110,145 Z" fill="currentColor" />
 
-  <!-- Gapit rod -->
-  <path d="M102,260 L102,345 L108,345 L108,260 Z" opacity="0.6"/>
+  <!-- Gapit Central Rod (Tangkai Wayang) -->
+  <rect x="132" y="320" width="10" height="115" rx="3" fill="#7E6337" opacity="0.85" />
 
-  <!-- Tatahan (carving details) -->
-  <g fill="none" stroke="#F5EEDF" stroke-width="1.8" opacity="0.3" stroke-linecap="round">
-    <!-- Smiling eye & eyebrow -->
-    <path d="M130,55 Q138,50 145,55" />
-    <circle cx="138" cy="58" r="1.5" fill="#F5EEDF" />
+  <!-- Ornate Tatahan Carving Details (Intricate lines & Poleng pattern) -->
+  <g stroke="#171412" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none">
     
-    <!-- Semar's white fang/smile line -->
-    <path d="M125,72 Q135,78 145,70" />
+    <!-- Semar's Face Details -->
+    <!-- Wise smiling eye & curved brow -->
+    <path d="M165,68 Q175,62 185,68" stroke-width="2.5" />
+    <circle cx="175" cy="73" r="2.5" fill="#171412" />
+    
+    <!-- Signature smiling mouth & white tusk/fang hint -->
+    <path d="M160,92 Q176,102 190,88" stroke-width="2.5" />
+    
+    <!-- Kuncung Hair Filigree -->
+    <path d="M178,52 Q188,32 190,18" stroke-width="2" />
+    <path d="M172,56 Q180,40 184,28" stroke-width="1.5" />
 
-    <!-- Sarung Poleng (Checked sarong pattern) -->
-    <path d="M70,190 L160,190 M60,215 L170,215 M55,240 L160,240" stroke-dasharray="3 3"/>
-    <path d="M85,175 L75,255 M115,170 L110,260 M145,175 L140,250" stroke-dasharray="3 3"/>
+    <!-- Sumping (Ornate Ear Stud) -->
+    <circle cx="145" cy="85" r="5" stroke-width="2" />
+    <circle cx="145" cy="85" r="2" fill="#171412" />
 
-    <!-- Ear ornament (anting-anting) -->
-    <circle cx="115" cy="70" r="3" />
+    <!-- Kalung / Necklace & Chest Sash -->
+    <path d="M130,125 Q165,145 200,125" stroke-width="2" stroke-dasharray="3 3" />
+    <path d="M125,145 Q165,170 205,145" stroke-width="2" />
+
+    <!-- Kain Kampuh Poleng (Checked Sacred Sarong of Semar) -->
+    <path d="M90,225 L215,225 M78,255 L228,255 M70,285 L215,285 M85,315 L195,315" stroke-width="2" stroke-dasharray="4 4" />
+    <path d="M105,205 L95,325 M135,200 L128,332 M165,200 L160,332 M195,205 L190,320" stroke-width="2" stroke-dasharray="4 4" />
+
+    <!-- Belly line & Navel -->
+    <path d="M135,185 Q165,200 195,185" stroke-width="1.8" />
+    <circle cx="165" cy="192" r="2" fill="#171412" />
+
+    <!-- Foot ornaments (Binggel Gelang Kaki) -->
+    <line x1="115" y1="360" x2="155" y2="360" stroke-width="2.5" />
   </g>
 </svg>

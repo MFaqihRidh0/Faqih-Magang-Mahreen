@@ -11,16 +11,34 @@ export const OpenCall: React.FC = () => {
         {/* Banner Container */}
         <div className="relative bg-charcoal-900 border-2 border-gold-500/60 rounded-3xl p-8 sm:p-12 lg:p-16 overflow-hidden shadow-2xl">
           
-          {/* Subtle Wayang Silhouette in Gold at 8% opacity in background (§5.3d & §7.10) */}
-          <div className="pointer-events-none absolute right-4 -bottom-10 h-96 opacity-[0.08] select-none text-gold-500">
+          {/* Authentic Golden Wayang Ksatria Figure from user asset */}
+          <div className="hidden lg:block absolute right-10 -bottom-6 h-[440px] pointer-events-none select-none z-10">
+            <div className="relative h-full animate-wayang-sway origin-bottom">
+              {/* Golden Ambient Glow */}
+              <div
+                className="absolute inset-0 opacity-40 blur-2xl -z-10"
+                style={{
+                  background: 'radial-gradient(circle at 50% 50%, rgba(201, 169, 110, 0.6) 0%, transparent 70%)',
+                }}
+              />
+              <img
+                src="/wayang/wayang-ksatria.png"
+                alt="Wayang Kulit Ksatria Berkarya"
+                className="h-full w-auto object-contain drop-shadow-[0_10px_25px_rgba(201,169,110,0.45)]"
+              />
+            </div>
+          </div>
+
+          {/* Subtle mobile backdrop wayang */}
+          <div className="lg:hidden pointer-events-none absolute right-2 -bottom-8 h-72 opacity-15 select-none">
             <img
-              src="/wayang/gunungan.svg"
-              alt="Siluet Wayang Latar"
+              src="/wayang/wayang-ksatria.png"
+              alt="Wayang Kulit Ksatria"
               className="h-full w-auto object-contain"
             />
           </div>
 
-          <div className="relative z-10 max-w-3xl">
+          <div className="relative z-10 max-w-2xl">
             
             {/* Eyebrow */}
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-charcoal-800 border border-gold-400/40 text-gold-400 text-xs font-bold tracking-[0.2em] uppercase mb-6">
